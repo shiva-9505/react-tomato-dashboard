@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Edu VIC WA NT Hand", cursive;
+    /* background-color: #ffd9fd; */
+}
+
+.navSection{
+   
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orangered; */
+    background-color: #681226;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    font-size: large;
+}
+.navSection span{
+    cursor: pointer;
+}
+
+.sideBarSection{
+  
+    width: 100%;
+    max-width: 15%;
+    height: 90vh;
+    padding-top: 10px;
+    /* background-color: rgb(1, 112, 112); */
+    background-color: #AF3713;
+    color: rgb(255, 255, 255);
+
+}
+.sideBarSection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
+.collectionSection{
+    display: flex;
+}
+
+.loginSection{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.registerSection{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.authForm label{
+    
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+}
+
+ .authForm{
+    width:100%;
+    max-width: 50%;
+    margin-top: -230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid gray ;
+    border-radius:30px ;
+}
+
+.authForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+
+}
+
+/* firmSection AddFirm*/
+
+.firmSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.tableForm, .authForm{
+    background-color:#ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width:100%;
+    max-width: 50%;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid gray ;
+    border-radius:30px ;
+    /* box-shadow: -6px 23px 67px 5px rgba(24,142,211,0.75);
+-webkit-box-shadow: -6px 23px 67px 5px rgba(24,142,211,0.75);
+-moz-box-shadow: -6px 23px 67px 5px rgba(24,142,211,0.75); */
+}
+
+.tableForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 35px;
+    max-width: 85%;
+    margin-bottom: 10px;
+    
+
+}
+.tableForm label{
+    width: 100%;
+    max-width: 85%;
+    font-weight: 600;
+    color: brown;
+
+}
+
+/*Add Prodcut*/
+
+.productSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/*Check box inputs*/
+
+.check-inp{
+    width: 100%;
+    max-width: 85%;
+    display: flex;
+}
+.check-inp label{
+    width: 20%;
+}
+
+.inputsContainer{
+    width: 100%;
+    display: flex;
+    
+}
+.checkboxContainer{
+ width: 100%;
+ max-width: 120%; 
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+}
+
+.checkboxContainer label{
+    width: 100%;
+}
+
+.checkboxContainer input{
+    margin-left: -140px;
+}
+
+/*reg Box Styling*/
+
+.regboxContainer{
+ width: 100%;
+ max-width: 50%; 
+
+ justify-content: center;
+ align-items: center;  
+}
+
+.regkboxContainer label{
+    width: 100%;
+}
+
+.regboxContainer input{
+    margin-left: 20px;
+}
+
+
+/*product table*/
+
+.product-table{
+    width: 100vw;
+    max-width: 80vw;
+    border-collapse:collapse;
+    margin-top: 50px;
+}
+
+.product-table th, .product-table td{
+    padding: 8px;
+    border: 2px solid gray;
+}
+.product-table th{
+    text-align: left;
+    background-color: rgb(215, 213, 213);
+}
+
+/* not found section */
+.errorSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.errorSection h1{
+    font-size: 4rem;
+}
+
+
+h3{
+    color: #185534;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+/* Hover effect for input fields */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Focus effect */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.4);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* own experiment */
+.tableForm, .authForm{
+  background: #ffffff;
+  padding: 10px 60px;
+  /* border-radius: 12px; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Hover effect for the entire form */
+.tableForm:hover, .authForm:hover {
+  box-shadow: 0 12px 30px rgba(0, 123, 255, 0.4); /* blue glow */
+  transform: translateY(-10px);
+}
