@@ -7,7 +7,7 @@ const AddProduct = () => {
   const [productName,setProductName]=useState("");
   const [price, setPrice]=useState("");
   const [category, setCategory]=useState([]);
-  const [bestSeller, setBestseller]=useState([false]);
+  const [bestSeller, setBestseller]=useState(false);
   const [description, setDescription]=useState("");
   const [image, setImage]=useState(null);
 
@@ -65,7 +65,7 @@ const AddProduct = () => {
         setProductName("");
         setPrice("");
         setCategory([]);
-        setBestseller([]);
+        setBestseller();
         setDescription("");
         setImage(null)
       }
