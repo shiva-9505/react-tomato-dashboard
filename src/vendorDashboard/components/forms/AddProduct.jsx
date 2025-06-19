@@ -54,7 +54,9 @@ const AddProduct = () => {
        
       const response = await fetch(`${API_URL}/product/add-product/${firmId}`,{
         method:'POST',
-        
+          headers: {
+    'authorization': loginToken,
+  },
         body:formData
       })
 
@@ -65,7 +67,7 @@ const AddProduct = () => {
         setProductName("");
         setPrice("");
         setCategory([]);
-        setBestseller();
+        setBestseller(false);
         setDescription("");
         setImage(null)
       }
