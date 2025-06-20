@@ -208,6 +208,7 @@ body{
     max-width: 80vw;
     border-collapse:collapse;
     margin-top: 50px;
+    margin-left: 40px;
 }
 
 .product-table th, .product-table td{
@@ -299,3 +300,4 @@ button:hover {
   box-shadow: 0 12px 30px rgba(0, 123, 255, 0.4); /* blue glow */
   transform: translateY(-10px);
 }
+

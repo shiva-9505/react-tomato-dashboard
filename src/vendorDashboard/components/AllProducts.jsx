@@ -12,7 +12,7 @@ const AllProducts = () => {
             const response=await fetch(`${API_URL}/product/${firmId}/products`);
             const newProductsData=await response.json();
             setProducts(newProductsData.products);
-            console.log(newProductsData.products);
+            //console.log(newProductsData.products);
 
         } catch (error) {
             console.error("Failed to fetch product",error);
@@ -59,6 +59,7 @@ const AllProducts = () => {
                 </thead>
                 <tbody>
                     {products.map((item)=>{
+                        // console.log("image ",item.image);
                         return (
                         <>
                         <tr key={item._id}>
